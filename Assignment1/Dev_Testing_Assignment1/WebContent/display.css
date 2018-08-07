@@ -8,17 +8,29 @@
 table {
     margin: auto;
     border-style: none;
-    background: blue;
+    background: #ebf6f9;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 th {
-    background-color: lightblue;
-    border: hidden;
+    color: #3399ff;
+    border: solid;
+    border-color: #b3d9ff;
+    padding: 3px;
+    
 }
 
 td {
     background: white;
     border: hidden;
     border-width: 2px;
-    
+}
+
+#idHeader {
+    border-top-left-radius: 5px;
+}
+
+#userNameHeader {
+    border-top-right-radius: 5px;
 }
