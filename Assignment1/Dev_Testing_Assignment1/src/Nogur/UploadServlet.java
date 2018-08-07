@@ -71,7 +71,7 @@ public class UploadServlet extends HttpServlet {
 	
          // forwards to the result 
 		request.setAttribute("Result", result);
-         getServletContext().getRequestDispatcher("/Success.jsp").forward(request, response);
+         getServletContext().getRequestDispatcher("/display.jsp").forward(request, response);
 	}
 
 }

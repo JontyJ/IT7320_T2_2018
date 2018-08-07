@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+#NogurTitle  {
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    margin: auto;
+    border-style: none;
+    background: blue;
+}
+
+th {
+    background-color: lightblue;
+    border: hidden;
+}
+
+td {
+    background: white;
+    border: hidden;
+    border-width: 2px;
+    
+}

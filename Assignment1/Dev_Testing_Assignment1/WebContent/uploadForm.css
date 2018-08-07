@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+
+h1 {
+	text-align: center;
+	margin-bottom: 0px;
+	
+}
+form { 
+  text-align: center;
+}
+
+input {
+	margin: 3px;
+}
+
+#userName {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+#submit {
+	color: white;
+	background: #008CFF;
+	border-color: #737373;
+	padding: 15px;
+	border-radius: 10px;
+}
