@@ -15,7 +15,7 @@
       <td><%=rs.getInt("id")%></td>
        
       <td>
-      <img src="GetImageServlet?imgid=<%=rs.getInt(1)%>" width="150" height="150">
+      <img src="getImage.jsp?imgid=<%=rs.getInt(1)%>" width="150" height="150">
       <td><%=rs.getInt("upvotes")%></td>
       <td><%=rs.getString("image_name")%></td>
       <td><%=rs.getString("user_name")%></td>
