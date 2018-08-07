@@ -1,7 +1,20 @@
 <%@ page import="java.sql.*,java.io.*,java.util.*" %> 
 <HTML>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Nogur</title>
+	<link rel="stylesheet" type="text/css" href="display.css" />
+	<link rel="stylesheet" type="text/css" href="mainStyle.css" />
+</head>
+
+	<div id="NogurTitle">
+		<h1>Nogur</h1>
+		<p>The number 2 image sharing and voting site</p>
+	</div>
+
  <table border="1">
- <tr><th>ID</th><th>Image</th><th>Upvotes</th><th>Image Name</th><th>Submitted by</th></tr>
+ <tr><th id="idHeader">ID</th><th>Image</th><th>Upvotes</th><th>Image Name</th><th id="userNameHeader">Submitted by</th></tr>
    <%
   try{      
 		Class.forName("com.mysql.jdbc.Driver");
