@@ -9,12 +9,20 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-   <servlet>
+  <servlet>
     <servlet-name>UploadServlet</servlet-name>
     <servlet-class>Nogur.UploadServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>UploadServlet</servlet-name>
     <url-pattern>/UploadServlet</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>GetImageServlet</servlet-name>
+    <servlet-class>Nogur.GetImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetImageServlet</servlet-name>
+    <url-pattern>/GetImageServlet</url-pattern>
   </servlet-mapping>
 </web-app>
