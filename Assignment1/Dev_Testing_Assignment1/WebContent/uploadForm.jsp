@@ -11,8 +11,9 @@
 </head>
 
 <body>
-<p>
+	<a id="displayButton" href="display.jsp">View all images</a>
 	<h1>Upload an Image</h1>
+	<p>not too big please.</p>
 	
 	<form method = "post" action = "UploadServlet" enctype = "multipart/form-data">
 		</br>
@@ -24,6 +25,5 @@
 		</br>
 		<input id = "submit" type = "submit" value = "Upload image">
 	</form>
-</p>
 </body>
 </html>

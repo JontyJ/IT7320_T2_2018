@@ -10,7 +10,7 @@
 
 	<div id="NogurTitle">
 		<h1>Nogur</h1>
-		<p>The number 2 image sharing and voting site</p>
+		<p>The number 2 image sharing site</p>
 	</div>
 
  <table border="1">
