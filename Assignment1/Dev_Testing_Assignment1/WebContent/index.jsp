@@ -11,7 +11,7 @@
 <body>
 <center>
 	<h1>Nogur</h1>
-	<p>The number 2 Image sharing site.</p>
+	<p>Get out of my localhost!</p>
 	</br>
 	<div id="buttons">
 		<a id="displayButton" href="display.jsp">View images</a>
