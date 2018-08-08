@@ -9,7 +9,7 @@
 <body>
 <center>
 	<h1>Nogur</h1>
-	<p>The number 2 Image sharing and voting site.</p>
+	<p>First in first serve</p>
 	<h2>Top Voted Images</h2>
 </center>
 </body>
