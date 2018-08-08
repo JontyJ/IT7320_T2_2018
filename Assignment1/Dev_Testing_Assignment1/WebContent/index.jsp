@@ -18,8 +18,7 @@
 		or
 		<a id="uploadButton" href="uploadForm.jsp">Upload your own</a>
 	</div>
-	
-	
+
 </center>
 </body>
 </html>
