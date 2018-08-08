@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+h1{
+	margin-top: 10%;
+}
+
+#buttons {
+	position: relative;
+	left:10px;
+}
+
+#uploadButton {
+  color: white;
+	background: #008CFF;
+  border: outset;
+	border-color: #7094db;
+	padding: 10px;
+	border-radius: 20px;
+  text-decoration: none;
+	font-weight: bold;
+}
+
+#uploadButton:hover {
+	background: #4dafff;
+}
+
+#displayButton {
+  color: white;
+	background: #00e600;
+  border: outset;
+	border-color: #7094db;
+	padding: 10px;
+	border-radius: 20px;
+  text-decoration: none;
+	font-weight: bold;
+}
+
+#displayButton:hover {
+	background: #80ff80;
+}

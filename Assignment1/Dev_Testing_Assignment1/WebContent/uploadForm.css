@@ -3,6 +3,7 @@
 h1 {
 	text-align: center;
 	margin-bottom: 0px;
+	margin-top:10%;
 	
 }
 form { 
@@ -18,10 +19,21 @@ input {
 	margin-bottom: 10px;
 }
 
+#imageName{
+	margin-bottom: 20px;
+}
+
 #submit {
-	color: white;
+  color: white;
 	background: #008CFF;
-	border-color: #737373;
-	padding: 15px;
-	border-radius: 10px;
+  border: outset;
+	border-color: #7094db;
+	padding: 10px;
+	border-radius: 20px;
+  text-decoration: none;
+	font-weight: bold;
+}
+
+#submit:hover {
+	background: #4dafff;
 }
