@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="mainStyle.css" />
 </head>
 
+	<a id="uploadButton" href="uploadForm.jsp">Upload an image</a>
 	<div id="NogurTitle">
 		<h1>Nogur</h1>
 		<p>The number 2 image sharing site</p>

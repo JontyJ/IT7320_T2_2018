@@ -1,16 +1,19 @@
 @charset "ISO-8859-1";
 
+h1{
+    margin-top:90px;
+}
+
 #NogurTitle  {
     text-align: center;
-    margin: 20px;
 }
 
 table {
     margin: auto;
     border-style: none;
     background: #ebf6f9;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
 }
 
 th {
@@ -28,9 +31,27 @@ td {
 }
 
 #idHeader {
-    border-top-left-radius: 5px;
+    border-top-left-radius: 13px;
 }
 
 #userNameHeader {
-    border-top-right-radius: 5px;
+    border-top-right-radius: 13px;
+}
+
+#uploadButton {
+    color: white;
+	background: #008CFF;
+    border: outset;
+	border-color: #7094db;
+	padding: 10px;
+	border-radius: 20px;
+    text-decoration: none;
+	font-weight: bold;
+    position: absolute;
+    right: 3%;
+    top: 7%;
+}
+
+#uploadButton:hover {
+	background: #4dafff;
 }
