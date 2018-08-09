@@ -17,19 +17,22 @@
  <table border="1">
  <tr><th id="idHeader">ID</th><th>Image</th><th>Upvotes</th><th>Image Name</th><th id="userNameHeader">Submitted by</th></tr>
    <%
-  try{      
-		Class.forName("com.mysql.jdbc.Driver");
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/user_images","root","");
-    	Statement stmt=con.createStatement();
-    	String strQuery = "select * from images";
-    	ResultSet rs = stmt.executeQuery(strQuery);
+  try{    
+	  
+	  //Connecting to the database
+	  Class.forName("com.mysql.jdbc.Driver");
+	  Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/user_images","root","");
+	  PreparedStatement stmt = con.prepareStatement("select * from images");
+	  ResultSet rs = stmt.executeQuery();
+	  
+	  //Getting all information from the database and displaying it in a table and getting the image from getImage.jsp	
     	while(rs.next()){
+    	
        %>
       <tr>
-      <td><%=rs.getInt("id")%></td>
-       
+      <td><%=rs.getInt("id")%></td>       
       <td>
-      <img src="getImage.jsp?imgid=<%=rs.getInt(1)%>" width="150" height="150">
+      <img src="getImage.jsp?imageID=<%=rs.getInt(1)%>" width="150" height="150">
       <td><%=rs.getInt("upvotes")%></td>
       <td><%=rs.getString("image_name")%></td>
       <td><%=rs.getString("user_name")%></td>
